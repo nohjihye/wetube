@@ -1,0 +1,19 @@
+{
+  "name": "wetube",
+  "version": "1.0.0",
+  "description": "cloning youtube for study",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nohjihye/wetube.git"
+  },
+  "author": "nohjihye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nohjihye/wetube/issues"
+  },
+  "homepage": "https://github.com/nohjihye/wetube#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
