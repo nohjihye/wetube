@@ -1,5 +1,5 @@
 import express from "express";
-import morgan from "morgan"; //loging
+import morgan from "morgan"; //logging
 import helmet from "helmet"; //security
 import cookieParser from "cookie-parser";
 import bodyParser from "body-parser";
@@ -10,6 +10,7 @@ import routes from "./routes";
 
 const app = express()
 
+app.set('view engine', "pug");
 app.use(cookieParser());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended : true}));
