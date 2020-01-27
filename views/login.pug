@@ -1,4 +1,8 @@
 extends layouts/main
 
 block content 
-    p login!
+   .form-container
+        form(action=routes.login, method="post")
+            input(type="email", name="email", placeholder="Email", required=true)
+            input(type="password", name="password", placeholder="password", required=true)
+            input(type="submit", value="log in")
